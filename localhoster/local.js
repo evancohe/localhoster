@@ -1,5 +1,4 @@
 const btn = document.querySelector('#bt')
-// const field = document.querySelector('#port')
 
 btn.addEventListener('click', event => {
     event.preventDefault
@@ -8,5 +7,4 @@ btn.addEventListener('click', event => {
         console.log(`btn clicked ${num} `)
         window.open(`http://localhost:${num}`)
     }
-
 })
